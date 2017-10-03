@@ -1,0 +1,3 @@
+sudo apt install openjdk-9-jre
+wget https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar
+java -jar BuildTools.jar --rev 1.12.1
